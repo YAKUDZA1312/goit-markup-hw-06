@@ -120,9 +120,6 @@ body {
   }
 }
 
-
-
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -143,7 +140,7 @@ body {
 
 @media only screen and (min-width: 1158px) {
   .logo {
-    margin-right: 120px;
+    margin-right: 76px;
   }
 }
 
