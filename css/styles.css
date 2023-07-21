@@ -711,6 +711,12 @@ text-align: center;
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .social {
+    display: inline;
+  }
+}
+
 
 .footer-web {
   font-weight: 800;
@@ -748,9 +754,10 @@ text-align: center;
 
 .footer-div {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 72px;
-  flex-direction: column;
+  
 }
 
 
@@ -834,7 +841,7 @@ text-align: center;
 
 @media only screen and (min-width: 768px) {
   .footer-form-subscribe {
-    display: block;
+    display: flex;
     flex-wrap: nowrap;
     align-items: flex-end;
     justify-content: flex-start;
@@ -858,8 +865,6 @@ text-align: center;
   .footer-input {
     margin: 0;
     justify-content: start;
-
-    
   }
 }
 
@@ -881,6 +886,14 @@ text-align: center;
   border-radius: 4px;  
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 768px) {
+  .footer-button-subscribe {
+    margin-left: 24px;
+  }
+}
+
+
 
 .footer-svg-btn {
   margin-left: 16px;
