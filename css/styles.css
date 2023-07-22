@@ -753,7 +753,6 @@ text-align: center;
 }
 
 .footer-div {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 72px;
@@ -763,6 +762,7 @@ text-align: center;
 
 @media only screen and (min-width: 768px) {
   .footer-div {
+    
     justify-content: flex-start;
     align-items: baseline;
     gap: 72px 24px;
@@ -900,7 +900,7 @@ text-align: center;
 }
 
 .footer-box {
-  margin: 0;
+  margin: 72px;
 }
 
 @media only screen and (min-width: 1158px) {
