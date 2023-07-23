@@ -644,7 +644,6 @@ text-align: center;
   }
 }
 
-
 .card-customers-list {
   height: 88px;
   width: 190px;
@@ -700,12 +699,20 @@ text-align: center;
 }
 
 .footer-container {
-  margin: 0;
+  margin-bottom:72px;
+  
 }
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    margin-right: 24px;
+  }
+}
+
 
 @media only screen and (min-width: 1158px) {
   .footer-container {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 }
 
@@ -759,12 +766,12 @@ text-align: center;
 }
 
 .footer-box {
-  margin: 0;
+  margin-bottom: 72px;
 }
 
 @media only screen and (min-width: 1158px) {
   .footer-box {
-    margin-right:80px;
+    margin-right: 80px;
   }
 }
 
@@ -772,7 +779,6 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
 }
 
 @media only screen and (min-width: 768px) {
@@ -833,9 +839,7 @@ text-align: center;
     text-align: start;
   }
 }
-.subscribe {
-  margin-left: auto;
-}
+
 
 .footer-form-subscribe {
   display: flex;
@@ -872,6 +876,7 @@ text-align: center;
     margin: 0;
     justify-content: start;
     margin-right: 24px;
+    width: 264px;
   }
 }
 

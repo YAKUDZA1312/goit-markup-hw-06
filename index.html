@@ -49,10 +49,14 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"> 
+        <button
+          type="button"
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="menu-toggle-icons" width="32" height="22">
-            <use href="./images/icons.svg#burger-menu">
-            </use>
+            <use href="./images/icons.svg#burger-menu"></use>
           </svg>
         </button>
       </div>
@@ -148,7 +152,12 @@
           <h2 class="our-team">Our Team</h2>
           <ul class="teammates list">
             <li class="item">
-              <img src="./images/img(4).jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="images/img(4).jpg 1x, images/img2x2.jpg 2x"
+                src="./images/img(4).jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="name-container">
                 <h3 class="name">Mark Guerrero</h3>
                 <p class="speciality">Product Designer</p>
@@ -185,7 +194,12 @@
               </div>
             </li>
             <li class="item">
-              <img src="./images/img(1)(1).jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="images/img(1)(1).jpg 1x, images/img2x.jpg 2x"
+                src="./images/img(1)(1).jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="name-container">
                 <h3 class="name">Tom Ford</h3>
                 <p class="speciality">Frontend Developer</p>
@@ -223,7 +237,8 @@
             </li>
             <li class="item">
               <img
-                src="./images/img(2)(1).jpg"
+                srcset="images/img(2)(1).jpg 1x, images/img32x.jpg 2x"
+                src="images/img(2)(1).jpg"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -264,6 +279,7 @@
             </li>
             <li class="item">
               <img
+                srcset="images/img(3)(1).jpg 1x, images/img42x.jpg 2x"
                 src="./images/img(3)(1).jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -406,11 +422,12 @@
           <p class="subscribe-page">Subscribe</p>
           <form class="footer-form-subscribe">
             <label class="footer-label"></label>
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                placeholder="E-mail">
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
             <button type="submit" class="footer-button-subscribe">
               Subscribe
               <svg class="footer-svg-btn" width="24px" height="24px">
@@ -505,7 +522,7 @@
                   <use href="./images/icons.svg#checkbox"></use>
                 </svg>
               </span>
-                I accept the terms and conditions of the
+              I accept the terms and conditions of the
               <a href="" class="modal-privacy-policy">Privacy Policy</a>
             </label>
           </div>
@@ -517,54 +534,65 @@
     <!-- Burger-menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button type="button" class="menu-toggle btn js-close-menu">
-          <svg class="icons-btn " width="8" height="8">
-              <use href="./images/icons.svg#close"></use>
-          </svg>
+        <svg class="icons-btn" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
       </button>
       <ul class="mobile-menu list">
-          <li class="mobile-menu-list"><a href="" class="mobile-menu-link studio link">Studio</a></li>
-          <li class="mobile-menu-list"><a href="" class="mobile-menu-link link">Portfolio</a></li>
-          <li class="mobile-menu-list"><a href="" class="mobile-menu-link link">Contacts</a></li>
+        <li class="mobile-menu-list">
+          <a href="" class="mobile-menu-link studio link">Studio</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="" class="mobile-menu-link link">Portfolio</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="" class="mobile-menu-link link">Contacts</a>
+        </li>
       </ul>
       <ul class="mobile-box list">
-          <li class="mobile-box-contacts"><a href="tel:110001111111" class="mobile-box-link number link">+11 (000)
-                  111-11-11</a></li>
-          <li class="mobile-box-contacts"><a href="mainto:info@devstudio.com"
-                  class="mobile-box-link link">info@devstudio.com</a></li>
+        <li class="mobile-box-contacts">
+          <a href="tel:110001111111" class="mobile-box-link number link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-box-contacts">
+          <a href="mainto:info@devstudio.com" class="mobile-box-link link"
+            >info@devstudio.com</a
+          >
+        </li>
       </ul>
       <ul class="mobile-list list">
-          <li class="mobile-icons">
-              <a href="" class="mobile-link">
-                  <svg class="" width="24" height="24">
-                      <use href="./images/icons.svg#instagram"></use>
-                  </svg>
-              </a>
-          </li>
-          <li class="mobile-icons">
-              <a href="" class="mobile-link">
-                  <svg class="" width="24" height="24">
-                      <use href="./images/icons.svg#twitter"></use>
-                  </svg>
-              </a>
-          </li>
-          <li class="mobile-icons">
-              <a href="" class="mobile-link">
-                  <svg class="" width="24" height="24">
-                      <use href="./images/icons.svg#facebook"></use>
-                  </svg>
-              </a>
-          </li>
-          <li class="mobile-icons">
-              <a href="" class="mobile-link">
-                  <svg class="" width="24" height="24">
-                      <use href="./images/icons.svg#linkedin"></use>
-                  </svg>
-              </a>
-          </li>
+        <li class="mobile-icons">
+          <a href="" class="mobile-link">
+            <svg class="" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icons">
+          <a href="" class="mobile-link">
+            <svg class="" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icons">
+          <a href="" class="mobile-link">
+            <svg class="" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icons">
+          <a href="" class="mobile-link">
+            <svg class="" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
-
-  </div>
-<script src="./js/mobile-menu.js"></script>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
